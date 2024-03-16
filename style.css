@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black; /* Set background to black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white; /* Set text color to white for better visibility */
+  }
+
+  #imageLabel {
+    font-size: 2em; /* Makes the text larger */
+    color: white; /* Ensures the text is white */
+    margin-bottom: 20px; /* Adds some space between the text and the image */
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #dynamicImage {
+    width: 256px; /* Set width to 512px */
+    height: 256px; /* Set height to 512px */
+    object-fit: cover; /* Ensure the aspect ratio is maintained without distortion */
+    border-radius: 15%;
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease; /* Add transition effect for opacity */
+  }
+  
